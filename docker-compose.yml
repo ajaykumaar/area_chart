@@ -1,0 +1,9 @@
+area_chart:
+  build: .
+  environment:
+    WORKER_SMTP_PORT: 265
+  command: python app.py
+  volumes:
+    - .:/home/app/area_chart
+  ports:
+    - "7500:7500"
