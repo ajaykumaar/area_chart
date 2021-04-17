@@ -3,7 +3,7 @@ import random
 import json
 
 app = Flask(__name__)
-PORT = 3500
+PORT = 7500
 
 
 @app.route("/", methods=["GET", "POST"])
